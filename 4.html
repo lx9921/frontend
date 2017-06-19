@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<meta name="renderer" content="webkit">
+		<title>知乎</title>
+		<style content="txt/css">
+			body{}
+			#banner{position:absolute; background-color:#0767c8; background-image:-webkit-linear-gradient(top,#086ed5,#055db5); width:100%; height:45px; top:0; left:0; clear:both;}
+			#bannerwrapper{width:960px; margin:0 auto;}
+			a{text-decoration:none;}
+			.zhilogo{position:relative; color:#fff; font-size:30px; display:block; margin-top:5px; width:62px; float:left;}
+			#topsearch-form input{position:relative; float:left; margin-top:5px; margin-left:20px; border-radius:4px; height:30px; width:360px; border:1px solid #045BB3;}
+			nav{display:inline-block; margin-left:10px;}
+			ul{padding:0;}
+			li{color:#fff; position:relative; float:left; display:block; width:2em; margin-top:-16px; padding:12px;}
+			.nav li:hover{background-color:#258; border:#257}
+			button{position:relative; float:left; color:#fff; background-color:#0d77e4; width:66px; height:32px; margin-left:5px; margin-top:6px; font-size:1em;  border-radius:4px; border:1px solid #257;}
+		</style>
+	</head>
+		
+	<body>
+		<div ID="banner">
+			<div ID="bannerwrapper">
+				<a href="http://www.zhihu.com" class="zhilogo">知乎</a>
+				<form method="GET" action="/search" id="topsearch-form">
+					<input type="text" name="bannersearch" ID="bannersearch" class="search" autocomplete="off" value placeholder="  搜索内容、问题或人..." aria-haspopup="true">
+				</form>
+				<button>提问</button>
+				<nav>
+					<ul class="nav">
+						<li>首页</li>
+						<li>话题</li>
+						<li>发现</li>
+						<li>消息</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+								
